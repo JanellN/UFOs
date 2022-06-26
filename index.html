@@ -17,6 +17,7 @@
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
+            <a href="index.html"><img src="static/images/ufo_image1.jpeg" alt="ufo_image_nav" width="45" height="auto"></a>
         </nav>
         <div class="jumbotron">
             <h1 class="display-4">The Truth is Out There</h1>
@@ -41,16 +42,27 @@
               <div class="col-md-3">
                 <form class="bg-dark" style="font-family: inherit; font-size: 1rem;">
                     <p>Filter Search</p>
-                    <ul class="bg-dark">
-                        <li class="bg-dark">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
-                        <li>
-                            <button id="filter-btn" type="button" class="bg-dark">
-                                Filter Table
-                            </button>
-                        </li>
+                    <ul class="list group bg-dark">
+                       <li class="list-group-item bg-dark">
+                          <label for="date">Enter Date</label>
+                          <input type="text" placeholder="1/10/2010" id="datetime" />
+                      </li>
+                      <li class="list-group-item bg-dark">
+                          <label for="city">Enter City</label>
+                          <input type="text" placeholder="fresno" id="city" />
+                      </li>
+                      <li class="list-group-item bg-dark">
+                          <label for="state">Enter State</label>
+                          <input type="text" placeholder="ca" id="state" />
+                      </li>
+                      <li class="list-group-item bg-dark">
+                          <label for="country">Enter Country</label>
+                          <input type="text" placeholder="US" id="country" />
+                      </li>
+                      <li class="list-group-item bg-dark">
+                          <label for="shape">Enter Shape</label>
+                          <input type="text" placeholder="light" id="shape" />
+                      </li>
                     </ul>
                   </form>
               </div>
